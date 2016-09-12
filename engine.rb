@@ -31,7 +31,7 @@ class Engine
                     if hello
                       if hello
                         if hello
-                          "bye?"
+                          "bye?                                                    so long "
                         end
                       end
                     end
