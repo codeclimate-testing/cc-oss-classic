@@ -27,7 +27,6 @@ class Complex
     @filters = params[:filter].split(",") rescue []
     @sort = params[:sort]
 
-    @users = User.scoped.joins(:user_skills)
     @users = @users.where('user_type = ?', @user_type) if @user_type.present?
     @users = @users.where('user_skills.skill_id in (?)', @skills.map(&:to_i)) if @skills.present? && @skills.size > 0
     @users = @users.where('availability = ?', @availability) if @availability.present?
