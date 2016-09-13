@@ -38,7 +38,7 @@ function alsoComplex() {
     isPastHalf = Number(duration) < 250 && Math.abs(delta.x) > 20 || Math.abs(delta.x) > viewport / 2,
     direction = delta.x < 0;
 
-  if (!isScrolling || !isCool) {
+  if ( !isScrolling ) {
     if (isPastHalf) {
       if (direction) {
         this.close();
