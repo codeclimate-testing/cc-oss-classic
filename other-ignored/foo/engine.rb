@@ -42,18 +42,18 @@ class Engine
   end
 
   def goodbye 
-    if hello
-      if hello
-        if hello
-          if hello
-            if hello
-              if hello
-                if hello
-                  if hello
-                    if hello
-                      if hello
-                        if hello
-                          "bye"
+    if bye 
+      if bye 
+        if bye 
+          if bye 
+            if bye 
+              if bye 
+                if bye
+                  if bye 
+                    if bye 
+                      if bye 
+                        if bye 
+                          "byeeeeeeeeeeeeeeee"
                         end
                       end
                     end
