@@ -40,4 +40,30 @@ class Engine
       end
     end
   end
+
+  def goodbye 
+    if hello
+      if hello
+        if hello
+          if hello
+            if hello
+              if hello
+                if hello
+                  if hello
+                    if hello
+                      if hello
+                        if hello
+                          "bye"
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
 end
